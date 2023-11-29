@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url('images/flores2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #E8BA4D;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 120px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 14px;
+}
+
+.fa-truck-fast {
+    margin-right: 5px;
+}
+
+.fa-cart-shopping, .fa-user {
+    color: #153634;
+}
+
+.fa-user {
+    margin-left: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #153634;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.envio {
+    background-color: #15383F;
+    color: #E8BA4D;
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+}
+
+h1, p {
+    color: #153634;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+h1 span {
+    display: flex;
+    justify-content: center;
+}
+
+.descripcion {
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.descripcion span {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #D2F97D;
+    color: #153634;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
